@@ -5,7 +5,7 @@ int ft_find_next_prime(int nb);
 
 int	main(void)
 {
-	printf("\nCalling ft_is_prime(int nb);\n\n");
+	printf("\nCalling ft_find_next_prime(int nb);\n\n");
 	printf("nb = 0		 | ret = %d		| Expected = 2\n",ft_find_next_prime(0));
 	printf("nb = -5		 | ret = %d		| Expected = 2\n",ft_find_next_prime(-5));
 	printf("nb = 1		 | ret = %d		| Expected = 2\n",ft_find_next_prime(1));

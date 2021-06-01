@@ -12,6 +12,5 @@ int	main(void)
 	printf("nb = 5	| power = 5 	| ret = %d		| Expected = 3125\n",ft_recursive_power(5,5));
 	printf("nb = 10	| power = 20	| ret = %d	| Expected = 1661992960\n\n",ft_recursive_power(10,20));
 	
-
 	return (0);
 }
