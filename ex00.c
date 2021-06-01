@@ -19,6 +19,7 @@ void *timer(void *var)
 
 void *execute(void *var)
 {
+	var = 0x00;
 	printf("\n... You learn more from failure than from success ...\n\n");
 	printf("Calling ft_recursive_factorial(int nb);\n");
 	printf("nb = -1 | ret = %d		| Expected = 0\n",ft_iterative_factorial(-1));

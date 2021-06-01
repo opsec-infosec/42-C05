@@ -19,6 +19,7 @@ void *timer(void *var)
 
 void *execute(void *var)
 {
+	var = 0x00;
 	printf("\nCalling ft_recursive_power(int nb, int power);\n\n");
 	printf("nb = 0	| power = 0	| ret = %d		| Expected = 1\n",ft_recursive_power(0,0));
 	printf("nb = 2	| power = -1	| ret = %d		| Expected = 0\n",ft_recursive_power(2,-1));

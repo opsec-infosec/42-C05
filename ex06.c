@@ -19,6 +19,7 @@ void *timer(void *var)
 
 void *execute(void *var)
 {
+	var = 0x00;
 	printf("\nCalling ft_is_prime(int nb);\n\n");
 	printf("nb = 0		 | ret = %d		| Expected = 0\n",ft_is_prime(0));
 	printf("nb = -5		 | ret = %d		| Expected = 0\n",ft_is_prime(-5));

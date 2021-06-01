@@ -19,6 +19,7 @@ void *timer(void *var)
 
 void *execute(void *var)
 {
+	var = 0x00;
 	printf("\nCalling ft_fibonacci(int index);\n\n");
 	printf("index = 0	 | ret = %d		| Expected = 0\n",ft_fibonacci(0));
 	printf("index = -743	 | ret = %d		| Expected = -1\n",ft_fibonacci(-1));
