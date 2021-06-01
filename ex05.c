@@ -12,7 +12,7 @@ int timer_done = 0;
 void *timer(void *var)
 {
 	var = 0x00;
-	sleep(5);
+	sleep(10);
 	timer_done = 1;
 	return (0);
 }
