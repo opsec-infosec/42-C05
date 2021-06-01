@@ -50,7 +50,10 @@ int	main(void)
 			return (1);
 		}
 		if (func_done)
+		{
+			pthread_cancel(timerId);
 			return (0);
+		}
 	}
 	return (0);
 }
